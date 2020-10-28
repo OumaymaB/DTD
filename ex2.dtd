@@ -1,0 +1,11 @@
+<!ELEMENT client (commande)+ >
+<!ATTLIST client id ID #REQUIRED>
+<!ELEMENT commande (ligneCommande)+ >
+<!ATTLIST commande date CDATA #REQUIRED>
+<!ELEMENT ligneCommande (produit, quantite) >
+<!ELEMENT quantite (#PCDATA) >
+<!ELEMENT produit (designation,prix) >
+<!ELEMENT designation (#PCDATA) >
+<!ELEMENT prix (#PCDATA) >
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE client SYSTEM "ex2.dtd">
+<client id="">
+    <commande date="">
+        <ligneCommande>
+            <produit>
+                <designation></designation>
+                <prix></prix>
+            </produit>
+            <quantite></quantite>
+        </ligneCommande>
+    </commande>
+    
+    <commande date="">
+        <ligneCommande>
+            <produit>
+                <designation></designation>
+                <prix></prix>
+            </produit>
+            <quantite></quantite>
+        </ligneCommande>
+    </commande>
+</client>
